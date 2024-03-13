@@ -1,4 +1,4 @@
 # nutcash
-Staking platform with 404 NFT rewards
+Staking platform with $NCASH rewards
 
 **UNDER CONSTRUCTION**
