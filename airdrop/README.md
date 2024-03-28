@@ -34,7 +34,7 @@ curl -s "https://api.covalenthq.com/v1/eth-mainnet/tokens/{TOKEN_ADDRESS}/token_
 - https://etherscan.io/tokens?sort=holders&order=desc : List top ERC-20 tokens by holders number 
 - 100k addresses holders have been extracted for the current top19 of the above list (i.e. USDT, LPT, USDC, IOV, SHIB, MEME, G-CRE, XNN, LINK, OMG, DAI, BAT, stETH, UNI, AMB, HEX, UCASH, CRO, GSE) and for WETH ERC-20 token (which was not listed on that list despite its high holders number: >900k)
 
-3) **Claimable delay**: ~1 year delay to claim NCASH airdrop via nutcash.org before the remaining is burnt ; timestamp limit set to: 1742314800 (Tuesday 18 March 2025 16:20:00 GMT) 
+3) **Claimable delay**: ~1 year delay to claim NCASH airdrop via nutcash.org before the remaining is burnt ; timestamp limit set to: 1743524400 (Tuesday 1 April 2025 16:20:00 GMT) 
 
 4) **Exception**: For NUT Ecosystem assets holders, all contract & exchange adresses have been excluded from the airdrop: 
 
@@ -75,6 +75,6 @@ This contract is based on `MerkleDistributorWithDeadline.sol` from Uniswap Merkl
 
 This Uniswap Merkle Distributor repository has been forked and adapted to Nutcash (NCASH) airdrop: scripts have been added/modified to generate Merkle Root and claims for NCASH airdrop from the csv files containing the snapshots of addresses and balances.
 
-Script `batchClaimMerkleDistributor.ts` has also been provided here in order to call `batchClaim` function of `NutcashMerkleDistributor.sol` for the addresses holding NUT ecosystem assets. This script can be used in several different environments (e.g. Remix).
+Script `batchClaimMerkleDistributor.ts` has also been provided here in order to call `batchClaim` function of `NutcashMerkleDistributor.sol` for the addresses holding NUT ecosystem assets. This script can be adapted/used in several different environments (e.g. Remix).
 
 More details in [uniswap-merkle-distributor-25a79e8/README.md](uniswap-merkle-distributor-25a79e8/README.md). 
