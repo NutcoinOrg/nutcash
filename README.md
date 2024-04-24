@@ -6,7 +6,7 @@
 
 **Initial Supply (Airdrop)**: 10,500,000 NCASH
 
-NCASH is an ERC-20 token deployed with OpenZeppelin and Remix on Aribtrum: [0x88266f9eb705f5282a2507a9c418821a2ac9f8bd](https://arbiscan.io/token/0x88266f9eb705f5282a2507a9c418821a2ac9f8bd#code) allowing staking of the following assets: 
+NCASH is an ERC-20 token deployed with OpenZeppelin and Remix on **Aribtrum Network**: [0x88266f9eb705f5282a2507a9c418821a2ac9f8bd](https://arbiscan.io/token/0x88266f9eb705f5282a2507a9c418821a2ac9f8bd#code) allowing staking of the following assets: 
 
 - **Nutcoin (NUT) on Arbitrum**: [0x8697841b82c71fcbd9e58c15f6de68cd1c63fd02](https://arbiscan.io/token/0x8697841b82c71fcbd9e58c15f6de68cd1c63fd02#code)
 - **Nuts (NUTS) on Arbitrum**: [0xa844cb1b558625c8a6214d460f2fcfa599eb464a](https://arbiscan.io/address/0xa844cb1b558625c8a6214d460f2fcfa599eb464a#code)
@@ -22,6 +22,8 @@ More details in the following readme files:
 - [airdrop/uniswap-merkle-distributor-25a79e8/README.md](airdrop/uniswap-merkle-distributor-25a79e8/README.md)
 
 **NB:** Staking implementation has been inspired from solidity contracts available in [andreitoma8 Github Repository](https://github.com/andreitoma8/Synthetix-ERC721-Staking)
+
+**NB2:** NCASH has also been bridged as mere ERC-20 token to **Ethereum network** using Wormhole Protocol: [0xd105c45bcc7211f847ae73b187a41b7d8184ade2](https://etherscan.io/token/0xd105c45bcc7211f847ae73b187a41b7d8184ade2#code)
 
 ## Staking Details
 
