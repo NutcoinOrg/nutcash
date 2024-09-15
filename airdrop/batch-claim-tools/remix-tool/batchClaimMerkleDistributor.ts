@@ -1,8 +1,8 @@
 import { ethers } from 'ethers'
 
-// Update these two variables as per your needs
-const contractName = "NutcashMerkleDistributor"; // The name of your contract (make sure the contract has been compiled in Remix)
-const contractAddress = "0x25559f0aBBaf2A928239D2F419181147Cc2dAd74"; // Assuming your contract has already been deployed, update the address
+
+const contractName = "NutcashMerkleDistributor"; 
+const contractAddress = "0x25559f0aBBaf2A928239D2F419181147Cc2dAd74";
 
 // To run the script in Remix, right click on file name in Remix file explorer and click 'Run'.
 (async () => {

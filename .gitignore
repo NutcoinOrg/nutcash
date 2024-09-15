@@ -4,3 +4,13 @@ airdrop/uniswap-merkle-distributor-25a79e8/wrangler.toml
 airdrop/uniswap-merkle-distributor-25a79e8/artifacts/
 airdrop/uniswap-merkle-distributor-25a79e8/.idea
 airdrop/uniswap-merkle-distributor-25a79e8/cache/
+airdrop/batch-claim-tools/generic-tool/node_modules/
+airdrop/batch-claim-tools/generic-tool/.env
+
+#ignore heavy generated files for merkle distributor
+
+airdrop/ncash-airdrop.json
+airdrop/merkle-indexes-input-part2.json
+airdrop/merkle-amounts-input-part2.json
+airdrop/merkle-accounts-input-part2.json
+airdrop/merkle-merkleProofs-input-part2.json
